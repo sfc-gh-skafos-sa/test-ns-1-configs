@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: merge labeled PR
-        uses: pascalgn/automerge-action@8b306ad1983d0ea68c43e27101123e891ecff104
+        uses: pascalgn/automerge-action@eb68b061739cb9d81564f8e812d0b3c45f0fb09a
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           MERGE_LABELS: "automerge, !wip"
